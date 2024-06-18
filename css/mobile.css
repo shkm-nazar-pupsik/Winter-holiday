@@ -1,0 +1,54 @@
+@media screen and (max-width: 400px) and (min-width: 220px){
+	body{
+		max-width: 400px;
+		margin: 0 auto;
+	}
+	.item{
+		display: none;
+		font-size: 1em;
+
+	}
+	.item-container{
+		flex-direction: column;
+		align-items: end;
+		padding: 2px;
+		border: none;
+		max-width: 400px;
+	}
+	.span{
+		display: block;
+		left: 400px;
+		top: 50px;
+	}
+	.span::after{
+		display: block;
+	}
+	.span::before{
+		display: block;
+	}
+	.bio-container2{
+		width: 380px;
+		height: 94px;
+	}
+	.social-container2{
+		width: 380px;
+		height: 94px;
+	}
+	.intelect-container2{
+		width: 380px;
+		height: 94px;
+	}
+	.deer-title{
+		font-size: 34px;
+		max-width: 400px;
+	}
+	.hat{
+		left: 70px;
+	}
+	.item{
+		font-size: 24px;
+		font-weight: 800;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+}
